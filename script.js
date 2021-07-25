@@ -18,9 +18,11 @@ $(document).ready(function(){
     });
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
+        $('.home .pic1').toggleClass("active");
     });
     $('.menu li').click(function(){
         $('.navbar .menu').toggleClass("active");
+        $('.home .pic1').toggleClass("active");
     });
 });
 
