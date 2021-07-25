@@ -146,6 +146,9 @@ html {
     animation: shake 4s;
     animation-iteration-count: infinite;
 }
+.home .pic1.active{
+    display: none;
+}
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -566,7 +569,8 @@ footer span a:hover{
         top:0;
         text-align: left;
         padding-top: 80px;
-        z-index:99999;
+        padding-left: 100px;
+        
     }
     .navbar .menu.active{
         left: 0;
@@ -629,7 +633,7 @@ footer span a:hover{
         display: block;
         margin-top: 30px;
         margin-left: -8px;
-        width: 80px;
+        width: 90px;
         height: auto;
         
     }
