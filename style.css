@@ -217,6 +217,7 @@ html {
     height: 340px;
     perspective: 1000px;
     
+    
   }
   
   .cards .flip-card-inner {
@@ -267,6 +268,7 @@ html {
       justify-content: space-evenly;
       display:flex;
       align-items: center;
+      border-radius: 10px;
   }
 
   .pic3{
